@@ -6,6 +6,6 @@ import (
 	"math/rand"
 )
 
-func FavouriteNumber() {
+func favouriteNumber() {
 	fmt.Println("My favoutite number is", rand.Intn(200))
 }

@@ -1,6 +1,8 @@
-# Types in Go
+# Notes about Go
 
-## Basics
+## Types
+
+### Basics
 
 bool
 
@@ -18,7 +20,7 @@ float32 float64
 
 complex64 complex128
 
-## Type conversions
+### Type conversions
 
 Some numeric conversions:
 
@@ -43,7 +45,7 @@ func typeConvert() {
 }
 ```
 
-## Type inference
+### Type inference
 
 When declaring a variable without specifying an explicit type (either by using the := syntax or var = expression syntax), the variable's type is inferred from the value on the right hand side.
 

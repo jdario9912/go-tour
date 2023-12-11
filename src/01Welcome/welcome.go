@@ -5,10 +5,10 @@ import (
 	"time"
 )
 
-func Hello() {
+func hello() {
 	fmt.Println("Hello Go")
 }
 
-func Time() {
+func timeNow() {
 	fmt.Println("The time is", time.Now())
 }

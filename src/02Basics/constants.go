@@ -4,7 +4,7 @@ import "fmt"
 
 const Pi = 3.14
 
-func Constants() {
+func constants() {
 	const World = "Mundo"
 
 	fmt.Println(Pi)
@@ -16,7 +16,7 @@ const (
 	Small = Big >> 99
 )
 
-func NumericsConstants() {
+func numericsConstants() {
 
 	fmt.Println(Big)
 	fmt.Println(Small)

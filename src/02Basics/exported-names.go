@@ -5,6 +5,6 @@ import (
 	"math"
 )
 
-func PiNumber()  {
+func piNumber()  {
 	fmt.Println(math.Pi)
 }
