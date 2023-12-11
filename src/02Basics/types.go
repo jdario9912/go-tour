@@ -34,3 +34,14 @@ func TypeConvert() {
 	var z uint = uint(f)
 	fmt.Println(x, y, z)
 }
+
+func TypeInference()  {
+	// num1 es de tipo numero
+	// sera "int", "float64" o "complex128" dependiendo de la presicion del valor
+	// num1 := 4
+	// num1 := 3.14
+	num1 := 0.867 + 0.5i
+
+
+	fmt.Printf("num1 is type %T and your value is %v.\n", num1, num1)
+}
