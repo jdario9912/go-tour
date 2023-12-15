@@ -25,6 +25,7 @@ func loopWhile() {
 	fmt.Println(sum)
 }
 
+// esta funcion se ejecutara infinitamente
 func infinity() {
 	for {
 
